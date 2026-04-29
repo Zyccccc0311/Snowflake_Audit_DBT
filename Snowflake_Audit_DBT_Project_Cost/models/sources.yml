@@ -13,8 +13,14 @@ sources:
     database: SNOWFLAKE
     schema: ORGANIZATION_USAGE
     tables:
+      - name: ACCOUNTS
+      - name: AUTOMATIC_CLUSTERING_HISTORY
       - name: METERING_DAILY_HISTORY
+      - name: MONETIZED_USAGE_DAILY
+      - name: RATE_SHEET_DAILY
+      - name: STAGE_STORAGE_USAGE_HISTORY
       - name: USAGE_IN_CURRENCY_DAILY
       - name: WAREHOUSE_METERING_HISTORY
-      - name: STAGE_STORAGE_USAGE_HISTORY
-      - name: ACCOUNTS
+      - name: STORAGE_DAILY_HISTORY
+      - name: DATA_TRANSFER_HISTORY
+      - name: DATABASE_STORAGE_USAGE_HISTORY
