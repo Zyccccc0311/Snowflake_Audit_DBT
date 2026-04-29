@@ -1,0 +1,13 @@
+Snowflake_Audit_DBT_Project_Cost:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "dummy"
+      user: "dummy"
+      role: SYSADMIN
+      warehouse: COMPUTE_WH
+      database: AUDIT_DB
+      schema: COST
+      threads: 8
+
