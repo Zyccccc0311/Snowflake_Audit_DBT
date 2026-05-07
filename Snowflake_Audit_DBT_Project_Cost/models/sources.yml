@@ -24,3 +24,9 @@ sources:
       - name: STORAGE_DAILY_HISTORY
       - name: DATA_TRANSFER_HISTORY
       - name: DATABASE_STORAGE_USAGE_HISTORY
+
+  - name: cost
+    database: AUDIT_DB
+    schema: COST
+    tables:
+      - name: D_RATE
