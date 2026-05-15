@@ -30,5 +30,5 @@ select
 FROM usage_in_currency
 LEFT JOIN rate_cny_sek
 ON
-rate_cny_sek.RATE_DATE=usage_in_currency.USAGE_DATE2026595
+rate_cny_sek.RATE_DATE=usage_in_currency.USAGE_DATE
 

@@ -1,4 +1,4 @@
-{{ config(materialized='table') }}
+DEMO_DB.PUBLIC.DBT_TEST_PROJECT{{ config(materialized='table') }}
 
 select
     * 
